@@ -1,0 +1,6 @@
+﻿  SongCollection.cpp
+C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 7 OOP345\SongCollection.cpp(26,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 7 OOP345\SongCollection.cpp(27,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  w7_p2.cpp
+  Generating Code...
+  Workshop 7 OOP345.vcxproj -> C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 7 OOP345\x64\Debug\Workshop 7 OOP345.exe

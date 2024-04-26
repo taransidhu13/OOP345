@@ -1,0 +1,29 @@
+                       Workshop 3 Part 2 - REFLECTION
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 2 February 2024
+
+Reflection on Workshop 3: Templates
+
+This workshop provided a hands-on experience in working with template classes, inheritance, and specialization.
+1. The Set and Collection classes are template classes with member functions defined within the class itself, making them suitable for inclusion directly in the header file.This choice enhances code readability and simplifies the overall structure, especially when dealing with template classes.
+2. The members added to the Pair module were essential for providing functionality and flexibility when using the class with template classes. Here's a justification for each member:
+havingSameKey Function:
+This static function allows comparing two Pair objects based on their keys. It is essential for checking whether two pairs have the same key, providing a way to determine equality between pairs.
+display Member Function:
+This member function is responsible for formatting and displaying the key-value pair. It aids in creating a consistent and user-friendly representation of the Pair objects.
+Equality Operator (operator==) Overload:
+Overloading the equality operator enables straightforward comparison of Pair objects based on their keys. It is a common way to check for equality.
+3. The add member function was specialized in the Set class to prevent the addition of duplicate elements. This specialization was necessary because the default implementation in the Collection class does not account for uniqueness. The specialization ensures that for a set of double values, two numbers are considered the same if their absolute difference is smaller or equal to 0.01.
+ for (int i = 0; (unsigned)i < this->numElements; i++) {
+        if (std::fabs(item - this->array[i]) <= 0.01) {
+            return false; // Already exists, don't add
+        }
+4. The class variable CAPACITY in the Set class is defined outside the class definition as a const member. This is done to ensure that it is treated as a compile-time constant, making it more efficient.
+
+
+
+

@@ -1,0 +1,34 @@
+                       Workshop 2 Part 2 - REFLECTION
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 28 January 2024
+
+Reflection on Workshop 2: Move and Copy Semantics
+
+1. Copy and Move Semantics:
+
+   In Workshop 2, I explored the concepts of copy and move semantics. Copy semantics involve creating a new object and copying the elements of the resource, while move semantics efficiently transfer the ownership of the resource from one object to another. The significant time difference observed between copy and move operations (e.g., 437527700 nanoseconds for copy constructor vs 300 nanoseconds for move constructor) underscores the efficiency gains of move semantics, especially when dealing with large blocks of resource memory.
+
+2. Reading and Populating Dynamic Array in StringSet Constructor:
+
+   To read the input file "gutenberg_shakespeare" in the StringSet constructor and populate the dynamic array, I adopted a two-pass approach. In the first pass, I counted the number of records by tracking the occurrences of single spaces, which serves as the record delimiter. In the second pass, I allocated memory for the dynamic array and read the strings into it. Although this involves rereading the file, it is necessary to accurately determine the size of the dynamic array. An alternative approach could be using a dynamic container like `std::vector` that dynamically resizes as elements are added, eliminating the need for a two-pass process.
+
+3. std::chrono Library and Clock Types:
+
+   Utilizing the std::chrono library, I monitored the time spent on specific tasks, such as copy and move semantics. The workshop directed the use of a steady_clock to take timestamps. The steady_clock provides a monotonic clock with a constant tick rate, making it suitable for measuring elapsed time. On the other hand, a system_clock may be subject to adjustments due to changes in the system time. The choice between steady_clock and system_clock depends on the specific use case. Steady_clock is preferred when measuring durations between points in time, while system_clock might be suitable for tasks involving real-world time. Understanding the differences allows us to make informed decisions based on the requirements of the application.
+
+Issues Faced and Resolutions:
+
+   - One challenge was determining the appropriate delimiter for records. The requirement specified a single space as the record delimiter, simplifying the task.
+
+   - Another consideration was the two-pass approach for reading and populating the dynamic array. While it involves rereading the file, it ensures accurate sizing of the array. An alternative using dynamic containers like std::vector could be explored for a more concise solution.
+
+   - The workshop introduced the use of std::chrono, which was a first-time experience for me. Researching the difference between steady_clock and system_clock clarified their usage in different scenarios.
+
+Overall, Workshop 2 provided valuable insights into efficient resource management through copy and move semantics and introduced practical aspects of working with std::chrono for measuring time.
+
+
+

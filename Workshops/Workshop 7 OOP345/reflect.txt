@@ -1,0 +1,48 @@
+/*                       Workshop 7 Part 2
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 14 March 2024
+
+Declaration:
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+Reflect.txt
+
+STL Functions Used:
+
+1.std::ifstream and std::ofstream: These were used for reading from and writing to files, respectively. They provide convenient ways to interact with file streams in C++.
+2.std::sort: Utilized to sort the song collection based on different fields such as album, length, or title. This STL function offers an efficient and standardized solution for sorting data.
+3.std::for_each: Used for iterating over the song collection to perform specific operations, such as displaying song details and calculating total listening time. It simplifies the iteration process and enhances code readability.
+4.std::replace_if: Employed to replace elements in the song collection based on a specific condition. This function provided a straightforward way to clean up album names where the value was "[None]".
+5.std::copy_if: Used to copy elements from one range to another based on a specific condition. It facilitated the extraction of songs for a particular artist from the song collection.
+
+Advantages of Using STL Algorithms:
+1.Efficiency: STL algorithms are optimized and tested, often outperforming hand-written loops in terms of speed and memory usage.
+2.Readability: They provide clear and concise code, making it easier to understand and maintain.
+3.Reusability: STL algorithms are generic and can be applied to different data types, promoting code reusability and reducing development time.
+
+Preventing Errors in Sorting Function:
+To prevent errors when specifying the sorting field name, the function could be redesigned to accept an enum or a strongly typed identifier instead of a string. This would restrict the options to valid choices and allow any errors to be detected by the compiler at compile time. 
+enum class SortField { Title, Album, Length };
+
+void SongCollection::sort(SortField field) {
+    switch (field) {
+        case SortField::Title:
+            // Sort by title
+            break;
+        case SortField::Album:
+            // Sort by album
+            break;
+        case SortField::Length:
+            // Sort by song length
+            break;
+        default:
+            // Handle invalid field
+            break;
+    }
+}

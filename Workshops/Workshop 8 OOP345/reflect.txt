@@ -1,0 +1,20 @@
+/*                       Workshop 8 Part 2
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 19 March 2024
+
+Declaration:
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+Advantage of Smart Pointer Syntax:
+
+Smart pointers make memory cleanup automatic, which makes code more dependable.  For example, in my solution's mergeSmart function, I utilized std::unique_ptr to handle memory cleanup. This eliminates the risk of memory leaks associated with manual memory management in raw pointers. By automatically deallocating memory when the smart pointer goes out of scope, smart pointers enhance code reliability and simplify memory management tasks.
+
+Difference Between Raw and Smart Pointer Syntax:
+
+Using raw pointers requires manual memory cleanup, which can lead to memory leaks. For instance, in the mergeRaw function, using raw pointers made it necessary to manual memory deallocation, leading to potential memory leaks if not managed properly. However, in the mergeSmart function, employing smart pointers like std::unique_ptr streamlined memory management. This difference simplifies code implementation, enhances reliability, and reduces the likelihood of memory-related error.

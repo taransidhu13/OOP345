@@ -1,0 +1,56 @@
+                       Workshop 1 Part 2 - REFLECTION
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 21 January 2024
+
+In this workshop, I revised fundamental C++ concepts, where I specifically focused on 
+internal and external linkage, static variables, and class upgrades. Internal linkage 
+restricts entities to a single translation unit, a good example of which isthe global clock 
+variable g_sysClock declared in the header and defined in the source file. This allows 
+shared access across the program.
+
+// Event.h
+namespace seneca {
+    extern size_t g_sysClock;
+}
+
+// Event.cpp
+namespace seneca {
+    size_t g_sysClock = 0;
+}
+
+Static variables, such as the counter in the display function, were significant for maintaining
+state across function calls. By using the static keyword, the variable retained its value
+between calls, facilitating event counting.
+
+// Event.cpp
+void Event::display() const {
+    static size_t counter = 0;
+    // ...
+    counter++;
+}
+
+The Event class underwent an upgrade by replacing the fixed-size character array (128 characters
+including the null terminator) for descriptions with a dynamic std::string. This not only 
+accommodates descriptions of any length but also lessens risks associated with buffer overflows.
+
+// Event.h
+class Event {
+private:
+    std::string description;
+    // ...
+public:
+    // ...
+    void set(const char* description = nullptr);
+};
+
+Challenges included resolving header guard convention errors and namespace issues. I had accidently named
+my Event module as Event.h and Event.cpp instead of event.h and event.cpp which led to 32+ errors when I compiled on matrix. Also I didn't knnow how to add command line arguments in Visual Studio 2022 which is my IDE Environment. I had to seek online help and subsequently figured out that these were added under the properties -> debugging in the solution explorer. Ensuring a consistent naming convention and paying attention to inclusion order in the main program resolved the former concern.
+
+Overall, the workshop increased my comprehension of linkage, static variables, and class design,
+providing me with the knowledge into creating dynamic and flexible C++ programs.
+
+

@@ -1,0 +1,27 @@
+/*                       Workshop 6 Part 2
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 10 March 2024
+
+Declaration:
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+Deallocating Dynamically Allocated Memory:
+Dynamically allocated memory needs to be properly deallocated to prevent memory leaks.
+I solved this by adding a destructor in the College class to delete dynamically allocated objects stored in the vector.
+
+Error Handling in loadData():
+When reading data from a file, errors like encountering an unknown type of person or invalid data in a record can occur.
+To handle this, I implemented error checks within the loadData() function.
+For instance, I checked the tag at the beginning of each record to identify the person type and validated the data extracted from the stream to ensure it matched the expected format.
+Using Pointers vs. Objects in Containers:
+
+I used pointers (std::list<seneca::Person*> and std::vector<seneca::Person*>) to store polymorphic objects in containers.
+Pointers offer runtime polymorphism and efficient memory usage but require manual memory management.
+Alternatively, using objects (std::list<seneca::Person> and std::vector<seneca::Person>) simplifies memory management as objects are stored directly, eliminating the need for manual deallocation.
+The choice depends on specific needs, considering trade-offs between memory management, polymorphism, and performance.

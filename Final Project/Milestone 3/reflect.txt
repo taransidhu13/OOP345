@@ -1,0 +1,14 @@
+Course Reflection:
+
+As my OOP345 course approaches its conclusion, I want to extend my gratitude to my professor and wish my classmates and myself success in the final exam. Our professor has been exceptionally supportive, informative, and considerate throughout the term.
+
+During the second term, we covered a range of significant topics, including the Standard Library, file stream objects, workshops, quizzes, the final project, pointers (both raw and smart), and multi-threading concepts. Each topic contributed to our understanding of object-oriented programming and its practical applications.
+
+I appreciate the hands-on experience gained through workshops and the opportunity to test our knowledge through quizzes and the final project. Understanding file stream objects was essential for handling input/output operations effectively, while exploring pointers and multi-threading concepts expanded our programming skills and problem-solving abilities.
+
+Overall, I'm grateful for the valuable insights gained in this course and confident that they will serve us well in our future endeavors.
+
+Warm regards,
+Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca

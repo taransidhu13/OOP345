@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\element.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|solutionrelative:element.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|solutionrelative:utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|solutionrelative:list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|solutionrelative:Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\w8_p2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4DEA48-3176-41FC-AB2A-FE8C6E9040DC}|Workshop 8 OOP345.vcxproj|solutionrelative:w8_p2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "list.h",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\list.h",
+              "RelativeDocumentMoniker": "list.h",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\list.h",
+              "RelativeToolTip": "list.h",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswDcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T22:31:57.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "w8_p2.cpp",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\w8_p2.cpp",
+              "RelativeDocumentMoniker": "w8_p2.cpp",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\w8_p2.cpp",
+              "RelativeToolTip": "w8_p2.cpp",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswD0AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T22:33:08.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "element.h",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\element.h",
+              "RelativeDocumentMoniker": "element.h",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\element.h",
+              "RelativeToolTip": "element.h",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T22:32:32.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "utilities.cpp",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\utilities.cpp",
+              "RelativeDocumentMoniker": "utilities.cpp",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\utilities.cpp",
+              "RelativeToolTip": "utilities.cpp",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T22:31:28.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "utilities.h",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\utilities.h",
+              "RelativeDocumentMoniker": "utilities.h",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Workshops\\Workshop 8 OOP345\\utilities.h",
+              "RelativeToolTip": "utilities.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T22:30:46.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

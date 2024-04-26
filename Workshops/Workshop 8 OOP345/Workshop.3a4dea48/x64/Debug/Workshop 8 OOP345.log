@@ -1,0 +1,11 @@
+﻿  utilities.cpp
+C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 8 OOP345\element.h(68,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'utilities.cpp')
+  
+C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 8 OOP345\element.h(76,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'utilities.cpp')
+  
+C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 8 OOP345\element.h(84,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'utilities.cpp')
+  
+  Workshop 8 OOP345.vcxproj -> C:\Users\kaurt\OneDrive\Desktop\Winter-2024\Object-Oriented Programming Using C++\Workshops\Workshop 8 OOP345\x64\Debug\Workshop 8 OOP345.exe

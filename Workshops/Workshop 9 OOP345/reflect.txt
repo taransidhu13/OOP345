@@ -1,0 +1,24 @@
+/*                       Workshop 9 Part 2
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 25 March 2024
+
+Declaration:
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+In this workshop, I explored how to handle binary files, bind functions, use multiple threads, and work with futures and packaged tasks. 
+
+Ans1. Binary files store data in its raw form, which is great for complex data like maps. This is advantageous for storing complex data structures, such as the map in the TreasureMap class, directly to a file. In the enscribe() function, data was written to the binary file by converting it to binary format using std::ofstream::write(), and then read back using std::ifstream::read() in the recall() function.
+
+Ans2. Function binding helps simplify function calls by connecting functions with their arguments ahead of time. In this workshop, std::bind was used to bind the digForTreasure() function to its arguments (map, mark, startIndex, endIndex) before passing it to std::packaged_task. This was useful in the multi-threaded findTreasure() function, as it allowed the function to be called with different subsets of data in each thread without explicitly passing all arguments every time.
+ 
+Ans3. Multi-threading, or doing multiple tasks at once, boosts performance by processing data simultaneously in different threads. I achieved this by splitting the data into parts and dealing with each part at the same time. This was done using std::thread to create threads and std::future to retrieve the results asynchronously. 
+
+Ans4. Futures and packaged tasks allow us to handle tasks asynchronously, meaning we can start a task and retrieve its result later.In this workshop, packaged tasks were created for each partition of data in the findTreasure() function, and futures were associated with these tasks to retrieve the count of found treasure asynchronously once the tasks were completed.
+
+One challenge I encountered was ensuring proper memory management when reading and writing strings to binary files, which was resolved by carefully managing memory allocation and deallocation for each string. Understanding these concepts was key to completing the workshop tasks.

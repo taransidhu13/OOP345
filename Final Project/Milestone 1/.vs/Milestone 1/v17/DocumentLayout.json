@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|solutionrelative:Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|solutionrelative:Utilities.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|solutionrelative:Utilities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|solutionrelative:Station.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\ms1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DC6FDF-B407-4CE4-9085-FE8B9872D9F2}|Milestone 1.vcxproj|solutionrelative:ms1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Station.h",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.h",
+              "RelativeDocumentMoniker": "Station.h",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.h",
+              "RelativeToolTip": "Station.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-15T01:29:13.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Station.cpp",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.cpp",
+              "RelativeDocumentMoniker": "Station.cpp",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Station.cpp",
+              "RelativeToolTip": "Station.cpp",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-15T01:28:57.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ms1.cpp",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\ms1.cpp",
+              "RelativeDocumentMoniker": "ms1.cpp",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\ms1.cpp",
+              "RelativeToolTip": "ms1.cpp",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAHQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-15T01:28:23.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilities.cpp",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.cpp",
+              "RelativeDocumentMoniker": "Utilities.cpp",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.cpp",
+              "RelativeToolTip": "Utilities.cpp",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-15T01:25:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utilities.h",
+              "DocumentMoniker": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.h",
+              "RelativeDocumentMoniker": "Utilities.h",
+              "ToolTip": "C:\\Users\\kaurt\\OneDrive\\Desktop\\Winter-2024\\Object-Oriented Programming Using C\u002B\u002B\\Final Project\\Milestone 1\\Utilities.h",
+              "RelativeToolTip": "Utilities.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-15T01:20:16.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

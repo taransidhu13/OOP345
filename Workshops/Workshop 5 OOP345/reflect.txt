@@ -1,0 +1,20 @@
+/*                       Workshop 5 Part 2
+
+Name: Tarandeep Kaur
+Student ID: 139389225
+Student Email: tarandeep-kaur6@myseneca.ca
+Professor: Masood Khan Patel
+Date: 12 February 2024
+
+Declaration:
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*/
+
+1. Functors are objects that can be called like functions, usually achieved by overloading the operator(). They are useful when we need stateful behavior or want to encapsulate complex functionality. Lambda expressions, on the other hand, are anonymous functions that can capture variables from their surrounding scope. They are useful when we need a short-lived function or want to pass a function as an argument to another function.
+
+2. In the SpellChecker constructor, exceptions are thrown when the file cannot be opened. Alternatively, we can handle errors by printing error messages to std::cerr and returning a flag or status code indicating failure. On the client side, we can check this flag or status code to handle errors gracefully without using try-catch blocks. This approach avoids the overhead of exceptions and simplifies error handling.
+
+3.To avoid duplicating logic in the Movie and Book classes, we can create a parent class called "Source" that contains common functionality, such as loading data from a file. Both Movie and Book can inherit from "Source" and override specific methods if necessary. This approach promotes code reuse and simplifies maintenance.
+
+4. In the context of this workshop, the default constructors for Movie and Book are necessary because they are called implicitly when objects are instantiated without arguments,e.g seneca::Book book in the main() function. However, if objects are always instantiated with arguments, the default constructors may not be needed and can be removed to enforce initialization through custom constructors.
